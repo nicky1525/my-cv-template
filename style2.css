@@ -122,3 +122,12 @@ dl.languages {}
 .experiences-row .cell img[src="companies/hm.png"] {
   top:-10px;
 }
+
+/* se devi generare il PDF, abilita il CSS seguente */
+body {
+  background: transparent;
+}
+
+.wrapper {
+  box-shadow: none;
+}
