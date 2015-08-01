@@ -4,7 +4,8 @@
   "description": "My marvelous CV",
   "main": "index.html",
   "scripts": {
-    "start": "python -m SimpleHTTPServer && npm run watch"
+    "start": "python -m SimpleHTTPServer && npm run watch",
+    "pdf": "wkhtmltopdf index.html cv.pdf ; open cv.pdf"
   },
   "repository": {
     "type": "git",

@@ -25,7 +25,8 @@ body {
 }
 
 .wrapper:first-child {
-  margin-bottom: 30px; /* quando devi stampare, aggiusta i margini! */
+  /*margin-bottom: -40px;*/ /* quando devi stampare, aggiusta i margini! */
+  margin-bottom: 30px;
 }
 
 .photo {
@@ -44,7 +45,7 @@ h1, h2, blockquote, .intro {
 }
 
 .intro {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 }
 
 h2 {
@@ -68,7 +69,7 @@ address ul li a {
 blockquote {
   font-style: italic;
   font-size: 1.1rem;
-  margin: 70px 0;
+  margin: 120px 0;
 }
   blockquote span {
     font-size: .8rem;
