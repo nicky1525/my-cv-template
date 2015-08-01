@@ -4,19 +4,25 @@
   <meta charset="UTF-8">
   <title>CV Nicole</title>
   <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style2.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="wrapper">
-    <img src="Nicole.JPEG" class="photo">
+    <img src="Nicole.jpeg" class="photo">
     <h1>Nicole De La Feld</h1>
 
     <address>
-<!--       E-mail: <a href="mailto:nicole@delafeld.it">nicole@delafeld.it</a><br> -->
-      E-mail: <a href="mailto:nic@programmer.net">nic@programmer.net</a><br>
-      Website:  <a href="http://delafeld.it">delafeld.it</a><br>
-      
-
+      <ul>
+        <li>
+          <span class="unicode-icon">&#x2709;</span> <a href="mailto:nic@programmer.net">nic@programmer.net</a>
+        </li>
+        <li>
+          <span class="unicode-icon">&#x2706;</span> <a href="tel:TUO_TELEFONO_QUI">TUO_TELEFONO_QUI</a>
+        </li>
+        <li>
+          <span class="unicode-icon unicode-icon-web">&#x1f310;</span> <a href="http://www.delafeld.it">www.delafeld.it</a><br>
+        </li>
+      </ul>
 
       <div class="icons">
         <a href="https://github.com/nicky1525"><img src="github-16x16.png" alt="GitHub"></a>
@@ -24,7 +30,6 @@
         <a href="http://www.linkedin.com/pub/nicole-de-la-feld/79/1b6/704"><img src="linkedin-16x16.png" alt="Linkedin"></a>
         <a href="https://twitter.com/n_delafeld"><img src="twitter-16x16.png" alt="Twitter"></a>
       </div>
-
     </address>
 
     <blockquote>
@@ -32,22 +37,21 @@
     <span>(Coco Chanel)</span>
     </blockquote>
 
-    <h2>Who I am</h2>
-
     <div class="intro">
+      <h2><span class="unicode-icon">&#x261b;</span> Who I am</h2>
       <p>I'm a passionate developer specialized in mobile applications.</p>
       <p>I entered the world of programming by studying Java and Android and in the meantime I increased my knowledge with C#, Objective-C and iOS development.<br> Moreover I studied HTML5, CSS and JavaScript basics.</p>
-<!-- 
+      <!-- 
       <p>I recently developed a brand new VoIP iOS app for DXI that will be on the Appstore from November, and a few mobile applications for Teamdev srl, two of them are available on Android and iOS marketplaces. The other ones will be soon.<br>
       I am also following some personal projects: you can find one <a href="https://github.com/nicky1525/UniApp">here</a>.</p> -->
     </div>
 
-    <h2>Skills</h2>
     <div class="skills-container">
+
       <div class="skills-row clearfix">
 
-        <div class="cell">
-          <h3>Languages</h3>
+        <div class="cell cell-cerchietto">
+          <h3><span class="unicode-icon">&#x2708;</span> Languages</h3>
           <dl class="languages clearfix">
             <dt>Italian</dt>
             <dd>Native proficiency</dd>
@@ -62,13 +66,63 @@
           </dl>
         </div>
 
-        <div class="cell">
-          <h3>Software and Operating Systems</h3>
-          <ul>
-            <li>Adobe Photoshop</li>
-            <li>Windows XP/Vista/7/8</li>
-            <li>Mac OS X</li>
-            <li>Linux (Debian)</li>
+        <div class="cell cell-cerchietto">
+          <h3><span class="unicode-icon">&#x2714;</span> Skills</h3>
+          <div class="labels clearfix">
+            <span>iOS</span>
+            <span>Objective-C</span>
+            <span>Swift</span>
+            <span>Java</span>
+            <span>Android</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>C#</span>
+            <span>SQL</span>
+            <!--
+            <span>Photoshop</span>
+            <span>OS X</span>
+            <span>Linux</span>
+            -->
+          </div>
+        </div>
+
+
+
+
+        <div class="cell cell-cerchietto cell-apps">
+          <h3><span class="unicode-icon"><img class="apple" src="images/appIcons/apple.png"></span> Apps</h3>
+          <ul class="list-apps">
+            <li><a href="https://itunes.apple.com/us/app/assembly-today-assembly-festival/id1018167156?ls=1&mt=8">
+            		<figure>
+            			<img class="assembly" src="images/appIcons/assembly.png" alt="">
+            			<figcaption>Assembly</figcaption>
+            		</figure>
+            	</a></li>
+            <li><a href="https://itunes.apple.com/us/app/ecn-agent/id932450080?ls=1&mt=8">
+            		<figure>
+            			<img src="images/appIcons/easycontactnow.png" alt="">
+            			<figcaption>ECN Agent</figcaption>
+            		</figure>
+            	</a></li>
+            <li><a href="https://itunes.apple.com/gb/app/perugia-giovani/id714996360?mt=8">
+            		<figure>
+            			<img class="pgg" src="images/appIcons/perugiagiovani.png" alt="">
+            			<figcaption>Perugia Giovani</figcaption>
+            		</figure>
+            	</a></li>
+            <li><a href="https://itunes.apple.com/us/app/img-s-ta6/id705081451?mt=8">
+            		<figure>
+            			<img src="images/appIcons/imgsta6.png" alt="">
+            			<figcaption>IMG-S TA6</figcaption>
+            		</figure>
+            	</a></li>
+            <li><a href="http://www.laboratoriogis.it/fattoriadidattica/">
+            		<figure>
+            			<img class="fattoria" src="images/appIcons/fattoriadidattica.png" alt="">
+            			<figcaption>Fattoria Didattica</figcaption>
+            		</figure>
+            	</a></li>
           </ul>          
         </div>
 
@@ -76,7 +130,7 @@
 
       <div class="skills-row clearfix">
    
-        <div class="cell">             
+<!--         <div class="cell">             
           <h3>Programming Languages</h3>
           <ul>
             <li>Java</li>
@@ -96,13 +150,13 @@
             <li>Android SDK</li>
             <li>iOS</li>
           </ul>
-        </div>
+        </div> -->
 
       </div><!-- //skills-row -->
 
       <div class="skills-row clearfix">
 
-        <div class="cell">
+<!--         <div class="cell">
           <h3>Certificates</h3>
           <ul>
             <li>European Computer Driving Licence (ECDL)</li>
@@ -118,7 +172,7 @@
             <li>Teamwork</li>
             <li>Communication</li>
           </ul>
-        </div>
+        </div> -->
 
       </div><!-- //skills-row -->
     </div><!-- //skills-container -->
@@ -128,7 +182,17 @@
   <div class="wrapper">
 
     <div class="experiences clearfix">
-      <h2>Work experiences</h2>
+      <h2><span class="unicode-icon">&#x1f4bc;</span> Work experiences</h2>
+		<div class="experiences-row">
+        <div class="cell clearfix">06/2015</div>
+        <div class="cell clearfix">
+          <h3>iOS Developer for Keytree Limited</h3>
+          <div class="place">London, UK. Software development and consultancy</div>Developed native iPhone app, now available on the store, for the Edinburgh Fringe Festival to buy tickets and get information about performances and events.
+          <div class="description">
+         </div>
+          <div class="image"><img src="images/companies/keytree.jpg" alt="DXI Limited"></div>
+        </div>
+      </div><!-- //experiences-row -->
 
       <div class="experiences-row">
         <div class="cell clearfix">04/2014 - 06/2015</div>
@@ -137,7 +201,7 @@
           <div class="place">London, UK. Software development and Telecommunications</div>
           <div class="description">Developed two native iOS apps to be used by contact centres for making, receiving, registering calls and managing customers' details. The core of the former, now available on the Apple store, is the VoIP library that opens a SIP channel for the user in order to make and receive calls.<br>The latter is a supervisor app to customize the Dashboard by adding widgets, access statistics, manage team performances and instant messaging.
          </div>
-          <div class="image"><img src="companies/dxi_logo.jpg" alt="DXI Limited"></div>
+          <div class="image"><img src="images/companies/dxi_logo.jpg" alt="DXI Limited"></div>
         </div>
       </div><!-- //experiences-row -->
 
@@ -147,7 +211,7 @@
           <h3>Mobile Developer for Teamdev S.r.l</h3>
           <div class="place">Perugia Area, Italy. Information Technology and Services</div>
           <div class="description">Developed two web based applications already available for Android and iOS mobile devices on their respective marketplaces. I also developed a GIS iPad app to save and synchronise online and offline data on a Geodatabase using ESRI's Libraries.</div>
-          <div class="image"><img src="companies/teamdev.png" alt="TeamDEV"></div>
+          <div class="image"><img src="images/companies/teamdev.png" alt="TeamDEV"></div>
         </div>
       </div><!-- //experiences-row -->
 
@@ -157,7 +221,7 @@
           <h3>Sales Advisor for H&M Hennes & Mauritz S.r.l</h3>
           <div class="place">Clothing Store, Area Italy</div>
           <div class="description">Customer care, cash desk, storage and garment care. Here I had the chance to grow my communication and team-working skills.</div>
-          <div class="image"><img src="companies/hm.png" alt="H&amp;M"></div>
+          <div class="image"><img src="images/companies/hm.png" alt="H&amp;M"></div>
         </div>
       </div><!-- //experiences-row -->
 
@@ -165,10 +229,9 @@
         <div class="cell clearfix">07/2009 - 08/2009</div>
         <div class="cell clearfix">
           <h3>Sales Advisor for Stefanel S.p.A</h3>
-          <div class="place">Via Mazzini, 76/78 Verona<br>
-          Clothing Store, Area Italy</div>
+          <div class="place">Clothing Store, Area Italy</div>
           <div class="description">Customer care</div>
-          <div class="image"><img src="companies/stefanel.png" alt="Stefanel"></div>
+          <div class="image"><img src="images/companies/stefanel.png" alt="Stefanel"></div>
         </div>
       </div><!-- //experiences-row -->
 
@@ -183,7 +246,7 @@
     </div><!-- //experiences -->
 
     <div class="education clearfix">
-      <h2>Education</h2>
+      <h2><span class="unicode-icon">&#x270e;</span> Education</h2>
 
       <div class="education-row">
         <div class="cell clearfix">01/2013 - 04/2013</div>

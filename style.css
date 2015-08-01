@@ -1,0 +1,280 @@
+/* clearfix class from Bootstrap 3 */
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: " ";
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 13px;
+}
+
+.wrapper {
+  width: 700px;
+  margin: 0 auto 0 auto; /* quando devi stampare, aggiusta i margini! */
+  padding: 60px;
+  box-shadow: 0 0 30px 30px rgba(0,0,0,.1);
+  background: white;
+  border-radius: 3px;
+  /*height:1100px;*/
+}
+
+.wrapper:first-child {
+  margin-bottom: 30px; /* quando devi stampare, aggiusta i margini! */
+}
+
+.photo {
+  position: absolute;
+  border-radius: 255px;
+  box-shadow: 0 6px 6px white,
+              0 6px 6px rgba(0,0,0,.3);
+  height: 150px;
+  width: 150px;
+  margin-left: 50px;
+}
+
+h1, h2, blockquote, .intro {
+  text-align: center;
+  position: relative;
+}
+
+.intro {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+address {
+  font-style: normal;
+  margin-left: 200px;
+}
+address ul {
+  list-style: none;
+}
+address ul li {
+  padding-bottom: 10px;
+}
+address ul li a {
+  color: black;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 1.1rem;
+  margin: 70px 0;
+}
+  blockquote span {
+    font-size: .8rem;
+  }
+
+.skills-row ul li {
+  margin-bottom: 5px;
+}
+  .cell {
+    float: left;
+    width: 50%;
+  }
+
+  .cell-cerchietto {
+    border-left: 2px solid #76B2E3; 
+    width: 45%;
+    position: relative;
+    height: 177px;
+    padding-left: 15px;
+    padding-top: 20px;
+  }
+
+  .cell-cerchietto h3 {
+    position: relative;
+    top: -20px;
+    left: -30px;
+    margin-top: 0;
+  }
+
+.experiences h2,
+.education h2 {
+  margin-bottom: 40px;
+}
+
+.experiences-row .cell,
+.education-row .cell {
+  position: relative;
+  height: auto;
+  margin-bottom: 20px;
+  width:75%;
+}
+  .experiences-row .cell:first-child,
+  .education-row .cell:first-child {
+    width: 25%;
+  }
+
+.experiences-row h3,
+.education-row h3 {
+  margin:0 0 3px 0;
+}
+.experiences-row .place {
+  margin:0 0 7px 0;
+  font-size: .7rem;
+  color: #777;
+}
+
+dl.languages {}
+  .languages dt,
+  .languages dd {
+    float: left;
+  }
+  .languages dt {
+    clear: left;
+    width: 30px;
+  }
+  .languages dd {
+    margin-bottom: 5px;
+  }
+
+.icons {
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.experiences-row .cell img {
+  position: absolute;
+  top:0;
+  right: 30px;
+  max-height: 40px;
+}
+
+.experiences-row .cell img[src="companies/teamdev.png"],
+.experiences-row .cell img[src="companies/hm.png"] {
+  top:-10px;
+}
+
+
+
+
+/*
+.intro, .skills-container, .experiences, .education {
+  position: relative;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(0,255,0,.2)
+}
+*/
+
+/*
+div > h2 {
+  transform: rotate(-90deg);
+  transform-origin: 100% 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0 !important;
+  background-color: green;
+}
+*/
+
+/*
+.intro h2 {
+  left: -157px;
+}
+
+.skills-container h2 {
+  left: -114px;
+}
+
+.experiences h2 {
+  left: -252px;
+}
+
+.education h2 {
+  left: -163px;
+}
+*/
+
+.labels {
+  width: 355px;
+  margin: auto;
+  text-align: center;
+}
+.labels span {
+  background-color: #ddd;
+  border-radius: 3px;
+  padding: 6px 12px;
+  /*float: left;*/ display: inline-block;
+  margin: 5px;
+}
+
+.unicode-icon {
+  background-color: #76b2e3;
+  color: white;
+  border-radius: 255px;
+  padding: 3px 6px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.unicode-icon-web {
+  font-size: 15px;
+  padding: 4px 6px;
+  font-weight: bold;
+}
+
+.cell-apps {
+  margin-top: 30px;
+  width: 100%;
+}
+ul.list-apps {
+  list-style: none;
+  text-align: center;
+}
+
+.list-apps li {
+	display: inline-block;
+  margin-right: 30px;
+}
+
+.list-apps a {
+  text-decoration: none;
+  color: #777;
+}
+
+.list-apps img {
+  height: 60px;
+  width: 67px;
+}
+
+img.assembly {
+  height: 58px;
+  width: 58px;
+  border-radius:13px;
+}
+
+img.fattoria {
+  height: 60px;
+  width: 100px;
+}
+
+img.pgg {
+  height: 60px;
+  width: 70px;
+}
+
+.apple {
+  width: 14px;
+  height: 14px;
+}
+
+/* se devi generare il PDF, abilita il CSS seguente */
+/*body {
+  background: transparent;
+}
+
+.wrapper {
+  box-shadow: none;
+}*/
+/* fine del CSS che devi abilitare per generare il PDF */

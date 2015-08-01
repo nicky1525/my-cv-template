@@ -1,0 +1,19 @@
+{
+  "name": "my-cv-template",
+  "version": "1.0.0",
+  "description": "My marvelous CV",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m SimpleHTTPServer && npm run watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicky1525/my-cv-template.git"
+  },
+  "author": "Nicole De La Feld",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicky1525/my-cv-template/issues"
+  },
+  "homepage": "https://github.com/nicky1525/my-cv-template#readme"
+}
